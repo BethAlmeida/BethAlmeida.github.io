@@ -35,21 +35,22 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: normal;
-	margin-top: -20px;
-	margin-bottom: -20px;
 	
 }
 
 h1{ font-weight:bolder;
 	font-size: x-large;
 	font-family: sans-serif;
+	margin-bottom: 0em;
 }
 
 h2{font-family:sans-serif;
 	font-size:x-small;
 	color:rgb(180, 180, 180);
+	margin-bottom: 0em;
 
 }
+p {margin-bottom: 0em;}
 
 img { float: left;
 	  height: 50%;
