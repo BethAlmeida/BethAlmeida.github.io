@@ -57,6 +57,7 @@ img { float: left;
 }
 footer {
 	clear:both;
+	float: left;
 	font-size: x-small;
 }
 ol, ul {
