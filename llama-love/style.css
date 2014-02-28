@@ -34,25 +34,22 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	
+	line-height: 100%;
 	
 }
 
 h1{ font-weight:bolder;
 	font-size: large;
 	font-family: sans-serif;
-	line-height: 100%;
 }
 
 h2{font-family:sans-serif;
 	font-size:x-small;
 	color:rgb(180, 180, 180);
-	line-height: 100%;
 
 }
 p{ margin-top: 0em;
 	margin-bottom: 0em;
-	line-height: 100%;
 
 }
 ol, ul {
