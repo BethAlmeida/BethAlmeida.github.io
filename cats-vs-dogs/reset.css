@@ -59,7 +59,17 @@ footer {
 	clear:both;
 	font-size: x-small;
 }
-ol, ul {
+ol {
+	list-style: none;
+	float: left;
+	text-transform: uppercase;
+	font-family: serif;
+	padding: 14px;
+	margin: 10px;
+	color: black;
+}
+
+ ul {
 	list-style: none;
 }
 blockquote, q {
