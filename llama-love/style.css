@@ -20,9 +20,10 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 15px 30px 15px 30px;
+	background-color: rgb(211, 211, 211);
 	padding: 0;
-	border: 0;
-	font-size: 100%;
+	border: 1;
+	font-size: 50%;
 	font: inherit;
 	vertical-align: baseline;
 }
