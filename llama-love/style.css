@@ -35,8 +35,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 120%;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 0em;
+	margin-bottom: 0em;
 }
 
 h1{ font-weight:bolder;
