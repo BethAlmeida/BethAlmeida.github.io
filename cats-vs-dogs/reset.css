@@ -61,8 +61,6 @@ footer {
 }
 ol, ul {
 	list-style: none;
-	float: left;
-	
 	font-family: serif;
 	padding: 14px;
 	margin: 10px;
