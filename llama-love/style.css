@@ -42,6 +42,7 @@ h1{ font-weight:bolder;
 	font-size: x-large;
 	font-family: sans-serif;
 	padding:0px;
+	padding-top: 5px;
 	margin:0px;
 	
 }
@@ -55,6 +56,7 @@ h2{font-family:sans-serif;
 
 }
 p { padding:0px;
+	padding-top: 10px;
 	margin:0px;
 
 
