@@ -27,7 +27,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 
 	body{
-		background-color: white;
+		background-color: gray;
 	}
 }
 /* HTML5 display-role reset for older browsers */
