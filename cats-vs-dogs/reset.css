@@ -60,6 +60,7 @@ footer {
 	font-size: x-small;
 }
 ol, ul {
+	ist-style: none;
 	
 }
 
