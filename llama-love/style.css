@@ -56,8 +56,8 @@ p{ margin-top: -5px;
 img { height: 50%;
 	  width: 50%;
 	  float:top;
-	  margin: 5px;
-	  margin-bottom: 15px;
+	  padding-right: 3px;
+	  padding-bottom: 10px;
 
 }
 ol, ul {
