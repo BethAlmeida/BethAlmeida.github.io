@@ -53,7 +53,7 @@ p{ margin-top: -5px;
 
 }
 
-img { 
+img { float: left;
 	  height: 100%;
 	  width: 100%;
 	  padding-right: 3px;
