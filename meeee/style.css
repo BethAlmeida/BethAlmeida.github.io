@@ -55,7 +55,8 @@ h1 { font-size:x-large;
 	font-weight:bold; 
 	color:black; 
 	text-align:center;
-	letter-spacing: 3px; }
+	letter-spacing: 4px;
+	background-color: gray; }
 h2 { font-size:large; 
 	font-weight: lighter; 
 	color:gray; 
