@@ -53,10 +53,12 @@ section#content { margin:0 auto; width:960px; padding:20px 0px; }
 
 h1 { font-size:x-large; 
 	font-weight:bold; 
-	color:black; 
+	color:white; 
 	text-align:center;
 	letter-spacing: 4px;
-	background-color: gray; }
+	background-color: gray;
+	padding-top: 5px;
+	padding-bottom: 5px;}
 h2 { font-size:large; 
 	font-weight: lighter; 
 	color:gray; 
