@@ -54,7 +54,8 @@ section#content { margin:0 auto; width:960px; padding:20px 0px; }
 h1 { font-size:x-large; 
 	font-weight:bold; 
 	color:black; 
-	text-align:center; }
+	text-align:center;
+	letter-spacing: 3px; }
 h2 { font-size:large; 
 	font-weight: lighter; 
 	color:gray; 
