@@ -59,7 +59,7 @@ h2 { font-size:large;
 	font-weight:normal; 
 	color:gray; 
 	text-align:center; }
-p { padding:50px 50px 50px 50px; 
+p { padding-left:50px; 
 font-family: sans-serif;}
 a:link{text-decoration: none;
 	color:aqua;
