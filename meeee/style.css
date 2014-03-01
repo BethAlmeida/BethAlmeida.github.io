@@ -56,9 +56,9 @@ h1 { font-size:x-large;
 	color:white; 
 	text-align:center;
 	letter-spacing: 4px;
+	background-color: gray;
 	margin-top: 5px;
 	margin-bottom: 5px;}
-	h1 span {background-color: gray;}
 h2 { font-size:large; 
 	font-weight: lighter; 
 	color:gray; 
