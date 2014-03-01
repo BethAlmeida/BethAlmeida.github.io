@@ -59,14 +59,10 @@ ol {
 	list-style: none;
 	padding-bottom: 2px;
 	margin-bottom: 5px;
-	margin:0 1.5em 1.5em 1.5em;
 	list-style-type:none;
 }
 ul {
 	list-style: none;
-	padding-bottom: 2px;
-	margin-bottom: 5px;
-	margin:0 1.5em 1.5em 1.5em;
 	list-style-type: decimal;
 }
 blockquote, q {
