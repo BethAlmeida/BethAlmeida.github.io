@@ -56,12 +56,13 @@ h1 { font-size:x-large;
 	color:black; 
 	text-align:center; }
 h2 { font-size:large; 
-	font-weight:normal; 
+	font-weight: lighter; 
 	color:gray; 
 	text-align:center; }
-p { padding-left:50px; 
-font-family: sans-serif;}
+p { padding-left:50px;
+	padding-top: 20px;
+	padding-bottom: 2px; 
+	font-family: sans-serif;}
 a:link{text-decoration: none;
-	color:aqua;
-
+	color:gray;
 };
