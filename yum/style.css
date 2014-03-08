@@ -43,7 +43,7 @@ h1{ font-family: sans-serif;
 }
 h2{ font-family: sans-serif;
 	font-size: xx-large;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 
 }
 h4{ font-family: sans-serif;
@@ -64,6 +64,7 @@ ol {
 ul {
 	list-style: none;
 	list-style-type: decimal;
+	line-height: 2px;
 }
 blockquote, q {
 	quotes: none;
