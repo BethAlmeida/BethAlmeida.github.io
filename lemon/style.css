@@ -50,7 +50,17 @@ table {
 	border-spacing: 0;
 }
 
-
 /* END RESET */
+h1{ font-family: sans-serif;
+	font-weight: bold;
+	font-size: xx-large;
+}
+ol {
+	list-style: none;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+	list-style-type:none;
+	line-height: 150%;
+}
 
 
