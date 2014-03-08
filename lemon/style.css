@@ -34,7 +34,20 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+
+
+ h1{ font-family: sans-serif;
+	font-weight: bold;
+	font-size: xx-large;
+}
+ol {
+	list-style: none;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+	list-style-type:none;
+	line-height: 150%;
+}
+ul {
 	list-style: none;
 }
 blockquote, q {
@@ -51,16 +64,6 @@ table {
 }
 
 /* END RESET */
-h1{ font-family: sans-serif;
-	font-weight: bold;
-	font-size: xx-large;
-}
-ol {
-	list-style: none;
-	padding-bottom: 2px;
-	margin-bottom: 5px;
-	list-style-type:none;
-	line-height: 150%;
-}
+
 
 
