@@ -64,7 +64,6 @@ ol {
 ul {
 	list-style: none;
 	list-style-type: decimal;
-	line-height: 2px;
 }
 blockquote, q {
 	quotes: none;
