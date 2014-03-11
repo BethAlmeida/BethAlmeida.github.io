@@ -52,6 +52,7 @@ ol {
 	list-style-type:none;
 	line-height: 150%;
 }
+li{padding-bottom: 5px;}
 img{
 width:650px;
 }
