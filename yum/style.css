@@ -84,4 +84,28 @@ table {
 
 /* END RESET */
 
+  a:link {color:gray;
+    text-decoration: none;
+  }
+  a:visited {color:gray;
+    text-decoration: none;
+  }
+#amount{float: left;
+        padding-right: 18px;
+        
+
+}
+#ingrediants{float: left;
+  
+}
+#steps{clear: both;
+  float: left;
+  padding-top: 20px;
+  width: 300px;
+  
+
+}
+
+
+
 
