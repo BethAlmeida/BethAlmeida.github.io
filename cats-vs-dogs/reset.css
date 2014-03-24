@@ -58,6 +58,7 @@ img { float: left;
 footer {
 	clear: both;
 	font-size: x-small;
+	padding-bottom: 0px;
 }
 ol, ul {
 	list-style: none;
