@@ -178,6 +178,8 @@ footer {
 	padding-top: 10px;
 	border-top-width: 2px;
 	border-top-style: solid;
+	position: absolute;
+	bottom: 0px;
 
 }
 a:link {color:#FF0000;
