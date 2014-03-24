@@ -55,11 +55,7 @@ img { float: left;
 	  padding-right: 0px;
 	  padding-bottom: 20px;
 }
-footer {
-	clear: both;
-	font-size: x-small;
-	padding-bottom: 0px;
-}
+
 ol, ul {
 	list-style: none;
 	
@@ -180,6 +176,8 @@ footer {
 	border-top-style: solid;
 	position: absolute;
 	bottom: 0px;
+	clear: both;
+	font-size: x-small;
 
 }
 a:link {color:#FF0000;
