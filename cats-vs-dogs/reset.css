@@ -175,7 +175,7 @@ footer {
 	margin-top: 10px;
 	border-top-width: 2px;
 	border-top-style: solid;
-	position: absolute;
+	position: relative;
 	bottom: 0px;
 	clear: both;
 	font-size: x-small;
