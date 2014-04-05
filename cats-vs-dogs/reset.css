@@ -188,6 +188,8 @@ a:link {color:#FF0000;
 		text-decoration: none;
 	}
 .italic{ 
-  font-family: 'Georgia Bold Italic'; 
+  font-family: 'Georgia, serif';
+  font-style: italic; 
+  font-weight: bold; 
 }
 
