@@ -77,17 +77,19 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 		top:5%;
 		left:45%;
 		right:45%;
-		text-align: center;
-
-	}
+		text-align: center;}
 	.art{
-		padding:5px;
+		position: absolute;
+		left:5%;
+		top:45%;
+		bottom:45%;
+		text-align: center;;
 	}
 	.design{
-		padding:5px;
+	
 	}
 	.contact{
-		padding:5px;
+
 	}
 
 .splash{
