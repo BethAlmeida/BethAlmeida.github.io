@@ -79,8 +79,8 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	width:75%;
 	top:15%;
 	left:15%;
-	margin-top: -50%;
-	margin-left: -50%;
+	right: 15%;
+	bottom: 15%;
 }
 .about{
 	width: 850px;
