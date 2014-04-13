@@ -75,10 +75,10 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 }
 .splash{
 	position: absolute;	
-	top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
+	top: 25%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
 	width:100%;
 	height: auto;
 	background-color: blue;
