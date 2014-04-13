@@ -68,25 +68,34 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 }
 .nav{
 	width:100%;
+	height: auto;
 	background-color: white;
+	padding: 25px;
+
+}
+.splash{
+	width:100%;
+	height: auto;
+	background-color: white;
+	padding: 75px;
 
 }
 .about{
 	width: 850px;
-	height: 650px;
+	height: auto;
 }
 	.bio{
 	width:280px;
-	height: 600px;
+	height: auto;
 
 }
 	.statement{
 	width:280px;
-	height: 600px;
+	height: auto;
 
 }
 	.resume{
 	width:280px;
-	height: 600px;
+	height: auto;
 
 }
