@@ -73,9 +73,10 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	text-align: center;}
 
 	.beth{
-		top:5%;
-		left:50%;
-		right:50%;
+		position: relative;
+		top:10%;
+		left:45%;
+		right:45%;
 
 	}
 	.art{
