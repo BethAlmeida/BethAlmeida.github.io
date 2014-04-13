@@ -74,12 +74,11 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 
 }
 .splash{
-	position: relative;
 	float: left;
 	width:75%;
-	height: 75%;
+	height: auto;
 	background-color: blue;
-	margin: 75px;
+	margin: 15%;
 
 }
 .about{
