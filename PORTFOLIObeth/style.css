@@ -71,18 +71,22 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	height: auto;
 	background-color: white;
 	display: block;
-	text-align: center;
+	text-align: center;}
 
-}
+	.beth{
+	}
+	.art{}
+	.design{}
+	.contact{}
+
 .splash{
-	width:60%;
-	height:60%;
-	margin:0 auto;
-	top:0px;
-	left:0px;
-	right:0px;
-	bottom:0px;
-}
+	position:fixed;
+      z-index:5;
+      left:100px;
+      right:100px;
+      top:100px; 
+      bottom:100px;}
+
 .about{
 	width: 850px;
 	height: auto;
