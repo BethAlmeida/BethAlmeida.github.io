@@ -77,10 +77,11 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 .splash{
 	position: absolute;	
 	width:75%;
-	top:100px;
-	left:100px;
-	right:100px;
-	bottom:100px;
+	margin:auto;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
 }
 .about{
 	width: 850px;
