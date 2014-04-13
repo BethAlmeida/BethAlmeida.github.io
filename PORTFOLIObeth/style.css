@@ -73,18 +73,18 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	display: block;
 	text-align: center;}
 
-	.beth{float:left;
+	.beth{
 		padding: 25px;
 		left: 50%;
 
 	}
-	.art{float:left;
+	.art{
 		padding: 25px;
 	}
-	.design{float:left;
+	.design{
 		padding: 25px;
 	}
-	.contact{float:left;
+	.contact{
 		padding: 25px;
 	}
 
