@@ -70,6 +70,8 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	width:100%;
 	height: auto;
 	background-color: white;
+	display: block;
+	text-align: center;
 
 }
 .splash{
