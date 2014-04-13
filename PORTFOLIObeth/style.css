@@ -68,8 +68,7 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 }
 
 .page{
-	width:1000px;
-	height: 800px;
+	width:100%;
 	background-color: white;
 
 }
