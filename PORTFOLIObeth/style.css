@@ -91,9 +91,9 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 		bottom:45%;
 		text-align:center;}
 	.contact{position: absolute;
-		left:5%;
-		top:45%;
-		bottom:45%;
+		bottom:5%;
+		left:45%;
+		right:45%;
 		text-align:center;}
 
 .splash{
