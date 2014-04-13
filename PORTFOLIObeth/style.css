@@ -74,6 +74,8 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 
 }
 .splash{
+	position: relative;
+	float: left;
 	width:80%;
 	height: auto;
 	background-color: blue;
