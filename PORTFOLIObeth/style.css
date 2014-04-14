@@ -93,7 +93,8 @@ background-color: white;
 		vertical-align: middle;
 		display: table-cell;
 		float:left;
-		margin-top: 30%;
+		margin-top: 50%;
+		margin-bottom: 50%;
 		-webkit-transform: rotate(-90deg);
 		width:10%;
 		background-color: white;}
@@ -111,7 +112,8 @@ background-color: white;
 		vertical-align: middle;
 		display: table-cell;
 		float:left;
-		margin-top: 30%;
+		margin-top: 50%;
+		margin-bottom: 50%;
 		-webkit-transform: rotate(90deg);
 		width:10%;
 		background-color: white;}
