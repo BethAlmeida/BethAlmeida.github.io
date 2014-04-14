@@ -107,7 +107,7 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 
 .splash{
 	width:80%;
-	height:60%;
+	height:auto;
 	display: table;
 	vertical-align: middle;
 	top:0;
@@ -120,9 +120,7 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	margin-right:auto;
 	}
 
-img{display: table;
-	vertical-align: middle;
-	width:100%;
+img{width:100%;
 	height:auto;}
 
 .about{
