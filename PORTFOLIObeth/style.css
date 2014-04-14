@@ -106,15 +106,15 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 		text-align:center;}
 
 .splash{position: absolute;
+	vertical-align: middle;
 	width:70%;
 	height:auto;
-	margin:0;
+	margin:0 auto;
 	top:10%;
 	left:0;
 	right:0;
 	bottom:50px;
- 	line-height: 0;
- 	vertical-align: middle;}
+ 	line-height: 0;}
 
 img{width:100%;
 	height:auto;}
