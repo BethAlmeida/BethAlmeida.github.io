@@ -73,7 +73,7 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	text-align: center;
 	display:block;
 	text-align: center;
-	vertical-align: middle}
+	line-height: 0;}
 
 	.beth{
 		position: absolute;
@@ -112,7 +112,8 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	left:0;
 	right:0;
 	bottom:0;
- 	vertical-align: middle}
+ 	line-height: 0;
+ 	vertical-align: middle;}
 
 .about{
 	width: 850px;
