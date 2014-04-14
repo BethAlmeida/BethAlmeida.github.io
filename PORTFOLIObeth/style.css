@@ -119,7 +119,8 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	}
 
 img{width:100%;
-	}
+	vertical-align: middle;
+}
 
 .about{
 	width: 850px;
