@@ -108,10 +108,10 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	width:50%;
 	height:auto;
 	margin:0 auto;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
+	top:10%;
+	left:10%;
+	right:10%;
+	bottom:10%;
  	line-height: 0;
  	vertical-align: middle;}
 
