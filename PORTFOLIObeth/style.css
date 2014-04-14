@@ -108,6 +108,8 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 .splash{
 	width:80%;
 	height:80%;
+	display: table-cell;
+	vertical-align: middle;
 	top:0;
 	left:0;
 	right:0;
