@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>:B</title>
+	 <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+     <nav id='nav' class='clearfix'> 
+        <div class='beth'><h1>BETH</h1>  </div>
+        <div class='art'><h1>ART</h1>  </div>
+        <div class='design'><h1>DESIGN</h1>  </div>
+        <div class='contact'><h1>CONTACT</h1>  </div>
+
+         <div class='splash'>
+        <div><h2>STATEMENT</h2>
+          As an artist and designer, I like to stumble upon the dualing factors in all things, and try to express the beauty where they coexist as one. Conceptualizing and creating form and function from concept is what drives my thought and creative processes; and positivity and passion drive me. 
+        </div>
+       
+
+      
+      </div>
+
+
+      </div> 
+
+
+      </div>
+
+  
+  
+
+
+    
+ 
+
+</ol>
+</section>
+  </body>
+</html>

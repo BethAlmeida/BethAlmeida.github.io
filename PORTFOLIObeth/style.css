@@ -108,13 +108,16 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 .splash{position: absolute;
 	width:80%;
 	height:auto;
-	margin:0 auto 25 auto;
+	margin:0 auto 25px auto;
 	top:10%;
 	left:0;
 	right:0;
 	bottom:15%;
  	line-height: 0;
  	vertical-align: middle;}
+
+img{width:100%;
+	height:auto;}
 
 .about{
 	width: 850px;

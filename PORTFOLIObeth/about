@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>:B</title>
+	 <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+     <nav id='nav' class='clearfix'> 
+        <div class='beth'><h1>BETH</h1>  </div>
+        <div class='art'><h1>ART</h1>  </div>
+        <div class='design'><h1>DESIGN</h1>  </div>
+        <div class='contact'><h1>CONTACT</h1>  </div>
+
+         <div class='about'>
+        <div><h2>BIO</h2></div>
+        <div><h2>STATEMENT</h2></div>
+        <div><h2></h2>RESUME</div>
+
+      
+      </div>
+
+
+      </div> 
+
+
+      </div>
+
+  
+  
+
+
+    
+ 
+
+</ol>
+</section>
+  </body>
+</html>
