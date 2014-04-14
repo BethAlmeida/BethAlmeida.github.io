@@ -61,6 +61,9 @@ h1 { font-family: 'Whitney-Light', sans-serif;
 h2 { font-family: 'Whitney-Light', sans-serif;
 	font-size: 0.8em;  }
 
+p{ font-family: serif;
+	font-size: 0.3em;}
+
 .clearfix:after;{
 	display:table;
 	clear:both;
