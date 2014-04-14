@@ -93,7 +93,9 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 		right:5%;
 		top:45%;
 		bottom:45%;
-		text-align:center;}
+		text-align:center;
+		display:block;
+		-webkit-transform: rotate(90deg);}
 	.contact{position: absolute;
 		bottom:5%;
 		left:45%;
