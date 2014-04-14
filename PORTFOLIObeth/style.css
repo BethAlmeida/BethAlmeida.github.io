@@ -71,7 +71,8 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	height: auto;
 	background-color: white;
 	text-align: center;
-	display:block;}
+	display:block;
+	text-align: center;}
 
 	.beth{
 		position: absolute;
