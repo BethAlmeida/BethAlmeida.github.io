@@ -108,7 +108,7 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 .splash{position: absolute;
 	width:80%;
 	height:auto;
-	margin:0 auto;
+	margin:0 auto 5% auto;
 	top:10%;
 	left:0;
 	right:0;
