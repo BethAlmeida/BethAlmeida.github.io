@@ -17,7 +17,7 @@
         <div class='contact'><h1>CONTACT</h1>  </div>
 
          <div class='splash'>
-        <div><h2>STATEMENT</h2>
+        <div id='statement'><h2>STATEMENT</h2>
           As an artist and designer, I like to stumble upon the dualing factors in all things, and try to express the beauty where they coexist as one. Conceptualizing and creating form and function from concept is what drives my thought and creative processes; and positivity and passion drive me. 
         </div>
        

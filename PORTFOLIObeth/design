@@ -17,7 +17,7 @@
         <div class='contact'><h1>CONTACT</h1>  </div>
 
     <div class='splash'>
-    <div><h2>DESIGN</h2>
+    <div id='design'><h2>DESIGN</h2>
 
         <div class='beth'><h1>ALL</h1>  </div>
         <div class='art'><h1>PRINT</h1>  </div>

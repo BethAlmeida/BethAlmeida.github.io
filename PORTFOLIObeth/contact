@@ -24,7 +24,7 @@
         <p>eaalmeida@massart.edu</p>
         </div>
 
-        <div id='input'>
+        <div id='sendmail'>
           <h4>FIRST NAME</h4>
           <h4>LAST NAME</h4>
           <h4>EMAIL ADDRESS</h4>
