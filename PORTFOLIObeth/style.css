@@ -77,14 +77,14 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 
 	.beth{
 		position: absolute;
-		top:5%;
+		top:2%;
 		left:45%;
 		right:45%;
 		text-align:center;
 		}
 	.art{
 		position: absolute;
-		left:5%;
+		left:2%;
 		top:45%;
 		bottom:45%;
 		text-align:center;
@@ -92,26 +92,26 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 		-webkit-transform: rotate(-90deg);}
 	.design{
 		position: absolute;
-		right:5%;
+		right:2%;
 		top:45%;
 		bottom:45%;
 		text-align:center;
 		display:block;
 		-webkit-transform: rotate(90deg);}
 	.contact{position: absolute;
-		bottom:5%;
+		bottom:2%;
 		left:45%;
 		right:45%;
 		text-align:center;}
 
 .splash{position: absolute;
-	width:50%;
+	width:80%;
 	height:auto;
 	margin:0 auto;
 	top:10%;
-	left:10%;
-	right:10%;
-	bottom:10%;
+	left:0;
+	right:0;
+	bottom:15%;
  	line-height: 0;
  	vertical-align: middle;}
 
