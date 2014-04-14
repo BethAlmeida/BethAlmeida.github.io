@@ -79,7 +79,6 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 		left:45%;
 		right:45%;
 		text-align:center;
-		padding-bottom: 10%;
 		}
 	.art{
 		position: absolute;
@@ -107,10 +106,10 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 	width:60%;
 	height:60%;
 	margin:0 auto;
-	top:0px;
-	left:0px;
-	right:0px;
-	bottom:0px;}
+	top:15%;
+	left:15%;
+	right:15%;
+	bottom:15%;}
 
 .about{
 	width: 850px;
