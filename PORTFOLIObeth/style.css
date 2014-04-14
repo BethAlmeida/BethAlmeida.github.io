@@ -104,14 +104,14 @@ h2 { font-family: 'Whitney-Light', sans-serif;
 		right:45%;
 		text-align:center;}
 
-.splash{
+.splash{position: absolute;
 	width:75%;
 	height:auto;
 	margin:0 auto;
-	top:25%;
+	top:0;
 	left:0;
 	right:0;
-	bottom:25%;
+	bottom:0;
  	line-height: 0;
  	vertical-align: middle;}
 
