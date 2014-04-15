@@ -33,7 +33,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	width:100%;
+	height:100%;
+	line-height:100%;
+
 	}
 
 ol, ul {
@@ -53,6 +56,7 @@ table {
 }
 
 
+
 /* END RESET */
 
 h1 { font-family: 'Whitney-Light', sans-serif;
@@ -65,93 +69,71 @@ p{ font-family: serif;
 	font-size: 0.3em;
 	text-align: left;}
 
-.clearfix:after;{
-	display:table;
-	clear:both;
-	content:"";  }
+
+html, body {height: 100%; padding: 0; margin: 0;}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
 
 #main{
-max-width:100%;
-max-height:100%;
+height:100%;
+width: 100%;
 background-color: white;
 }
 
 	#top{
 	width:100%;
-	height:10%;
+	height:6%;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	text-align:center;
-	margin:0 auto;
-	text-align:center;}
+	}
 
-	#middle{clear:both;
+	#middle{
 	width:100%;
 	height:80%;
-	background-color:black;
 	text-align:center;
-	margin:0 auto;}
+	}
 	
 		#left-middle{
-		text-align: center;
-		vertical-align: middle;
-		display: table-cell;
 		float:left;
 		margin-top: 50%;
 		margin-bottom: 50%;
 		-webkit-transform: rotate(-90deg);
-		width:10%;
-		background-color: white;}
+		width:6%;
+		padding-right: 2%;
+		}
 
 		#center-middle{
 		float:left;
-		width:80%;
-		height:80%;
+		width:84%;
 		overflow:hidden;
-		text-align: center;
 		}
 
 		#right-middle{
-		text-align: center;
-		vertical-align: middle;
-		display: table-cell;
 		float:left;
 		margin-top: 50%;
 		margin-bottom: 50%;
 		-webkit-transform: rotate(90deg);
-		width:10%;
-		background-color: white;}
+		width:6%;
+		padding-left: 2%;
+		}
 	
-	#bottom{
-		clear:both;
+	#bottom{clear:both;
 		width:100%;
-		height:10%;
+		height:6%;
 		padding-top: 2%;
 		padding-bottom: 2%;
-		margin:0 auto;
-		text-align:center;}
+		text-align:center;
+		}
 
 img{
-	width:3000px;
-	max-height:100%;
-	display:block;}
-
-.about{
-	width: 850px;
-	height: auto;
-}
-	.bio{
-	width:280px;
-	height: auto;
-
-}
-	.statement{
-	width:280px;
-	height: auto;
-
-}
-	.resume{
-	width:280px;
-	height: auto;
-
-}
+	width:100%;
+	height:100%;
+	}

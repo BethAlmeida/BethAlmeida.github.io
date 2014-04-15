@@ -6,28 +6,36 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 <link rel="stylesheet" href="style.css" type="text/css" media="screen">
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   </head>
 
 <body>
-	<div id="main">
+	<div id="main" class="layout">
 		
 		<div id="top">
 			<h1>BETH</h1>
 		</div>
 		
 		<div id="middle" class="clearfix">
+			
 			<div id="left-middle"><h1>ART</h1></div>
 			
-			<div id="center-middle"><img src="blue.jpg"/></div>
+			<div id="center-middle"><img src="BLUE.jpg"/></div>
 			
 			<div id="right-middle"><h1>DESIGN</h1></div>
+		
 		</div>
 		
-		<div id="bottom" class="clearfix">
+		<div id="bottom">
 			<h1>CONTACT</h1>
 		</div>
 		
 	</div>
+ <script language="javascript">
+$(function() {
+    windowHeight = $(window).height();
+   $('#body').css('min-height', windowHeight);
+});
+ </script>
+
 </body>
 </html>
