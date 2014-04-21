@@ -163,7 +163,7 @@ img{
 	a:visited {color:black;
 		text-decoration: none;
 	}
-	a:hover {color:blue;
+	a:hover {color:white;
 		text-decoration: none;
 	}
 
@@ -209,7 +209,7 @@ img{
     top: 0;
     padding: 2px 2px;
 
-    color: blue;
+    color: black;
     background: white;
 
     -webkit-transform-origin: 50% 0%;
