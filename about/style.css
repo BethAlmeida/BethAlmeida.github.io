@@ -124,7 +124,7 @@ background-color: white;
 		float:left;
 		width:84%;
 		overflow:hidden;
-		}
+		background-color: red;}
 
 		#right-middle{
 		text-align:center;
@@ -134,6 +134,7 @@ background-color: white;
 		padding-left: 2%;
 		margin-top:20%;
 		margin-bottom:30%;
+		background-color: yellow;
 		}
 			#designflip{
 			text-align:center;
@@ -150,6 +151,7 @@ background-color: white;
 		padding-top: 2%;
 		padding-bottom: 2%;
 		text-align:center;
+		background-color: blue;
 		}
 
 
