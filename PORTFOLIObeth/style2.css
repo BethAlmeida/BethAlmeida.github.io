@@ -81,12 +81,12 @@ html {height: 100%; overflow:hidden; padding: 0; margin: 0;}
 	height: 0;
 }
 
-#main{
+#maina{
 height:100%;
 background-color: white;
 }
 
-	#top{
+	#topa{
 	width:100%;
 	height:3%;
 	padding-top: 2%;
@@ -94,14 +94,14 @@ background-color: white;
 	text-align:center;
 	}
 
-	#middle{
+	#middlea{
 	width:100%;
 	height:80%;
 	text-align:center;
 	overflow: hidden;
 	}
 	
-		#left-middle{
+		#left-middlea{
 		text-align:center;
 		height: 100%;
 		float:left;
@@ -111,7 +111,7 @@ background-color: white;
 		margin-bottom:30%;
 
 		}
-			#artflip{
+			#artflipa{
 			text-align:center;
 			padding-top: 50%;
 			-webkit-transform: rotate(-90deg);
@@ -119,14 +119,14 @@ background-color: white;
 			height: 6%;
 			}
 
-		#center-middle{
+		#center-middlea{
 		height:100%;
 		float:left;
 		width:84%;
 		overflow:hidden;
 		}
 
-		#right-middle{
+		#right-middlea{
 		text-align:center;
 		height: 100%;
 		float:left;
@@ -135,7 +135,7 @@ background-color: white;
 		margin-top:20%;
 		margin-bottom:30%;
 		}
-			#designflip{
+			#designflipa{
 			text-align:center;
 			padding-top: 50%;
 			-webkit-transform: rotate(90deg);
@@ -143,7 +143,7 @@ background-color: white;
 			height: 6%;
 			}
 	
-	#bottom{
+	#bottoma{
 		clear: both;
 		width:100%;
 		height:6%;
@@ -151,7 +151,6 @@ background-color: white;
 		padding-bottom: 2%;
 		text-align:center;
 		}
-
 
 img{
 	width:100%;
