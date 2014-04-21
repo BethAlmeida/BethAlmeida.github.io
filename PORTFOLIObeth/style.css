@@ -33,9 +33,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	width:100%;
 	height:100%;
 	line-height:100%;
+	overflow:hidden;
 
 	}
 
@@ -70,7 +70,7 @@ p{ font-family: serif;
 	text-align: left;}
 
 
-html, body {height: 100%; padding: 0; margin: 0;}
+html {height: 100%; overflow:hidden; padding: 0; margin: 0;}
 
 .clearfix:after {
 	content: ".";
@@ -83,13 +83,12 @@ html, body {height: 100%; padding: 0; margin: 0;}
 
 #main{
 height:100%;
-width: 100%;
 background-color: white;
 }
 
 	#top{
 	width:100%;
-	height:6%;
+	height:3%;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	text-align:center;
@@ -99,33 +98,53 @@ background-color: white;
 	width:100%;
 	height:80%;
 	text-align:center;
+	overflow: hidden;
 	}
 	
 		#left-middle{
+		text-align:center;
+		height: 100%;
 		float:left;
-		margin-top: 50%;
-		margin-bottom: 50%;
-		-webkit-transform: rotate(-90deg);
 		width:6%;
 		padding-right: 2%;
+		margin-top:20%;
+		margin-bottom:30%;
+
 		}
+			#artflip{
+			text-align:center;
+			padding-top: 50%;
+			-webkit-transform: rotate(-90deg);
+			width:100%;
+			height: 6%;
+			}
 
 		#center-middle{
+		height:100%;
 		float:left;
 		width:84%;
 		overflow:hidden;
 		}
 
 		#right-middle{
+		text-align:center;
+		height: 100%;
 		float:left;
-		margin-top: 50%;
-		margin-bottom: 50%;
-		-webkit-transform: rotate(90deg);
 		width:6%;
 		padding-left: 2%;
+		margin-top:20%;
+		margin-bottom:30%;
 		}
+			#designflip{
+			text-align:center;
+			padding-top: 50%;
+			-webkit-transform: rotate(90deg);
+			width:100%;
+			height: 6%;
+			}
 	
-	#bottom{clear:both;
+	#bottom{
+		clear: both;
 		width:100%;
 		height:6%;
 		padding-top: 2%;
