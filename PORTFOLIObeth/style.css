@@ -199,6 +199,38 @@ background-color: white;
 	margin-right:22%;
 	}
 
+#workthumbnails{clear:both;
+	display: block;
+	text-align: center;
+	width:100%;
+	margin-left:22%;
+	margin-right:22%;
+	}
+	#ulthumbnails{display: inline;
+		margin-right: auto;
+		margin-left: auto;
+	}
+#workthumbnails2{clear:both;
+	display: block;
+	text-align: center;
+	width:100%;
+	margin-left:22%;
+	margin-right:22%;
+	}
+	#ulthumbnails2{display: inline;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+		.lithumbnails {
+    	list-style:none;
+		float:left;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-left: auto;
+		margin-right: auto;  }
+
+
 img{
 	width:100%;
 	height:auto; /* change to 100% to scale vertically*/
