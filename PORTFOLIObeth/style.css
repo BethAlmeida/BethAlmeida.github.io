@@ -229,7 +229,8 @@ background-color: white;
 
 		.lithumbnails>img {width:100%;}
 
-#selectionphoto{width:50%;}
+#selectionphoto{width:50%;
+				overflow: hidden;}
 
 img{
 	width:100%;
