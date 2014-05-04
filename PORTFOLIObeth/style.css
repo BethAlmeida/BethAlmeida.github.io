@@ -206,7 +206,7 @@ background-color: white;
 	height: 5%;
 	margin-left:17%;
 	margin-right:17%;
-	}
+	overflow: hidden;}
 
 #workthumbnails{
 	display: block;
@@ -216,7 +216,7 @@ background-color: white;
 	overflow:hidden;
 	margin-right:2%;
 	margin-top: 2%;
-
+	overflow: hidden;
 	}
 
 		.lithumbnails {
@@ -228,7 +228,7 @@ background-color: white;
     	overflow: hidden;
  			  }
 
-		.lithumbnails>img {overflow: hidden;
+		.lithumbnails>img {
 							height: auto;
 							width: 100%;
 							}
