@@ -198,43 +198,34 @@ background-color: white;
 	margin: auto;}
 
 #work{
+	position: absolute;
 	display: block;
 	text-align: center;
 	width:100%;
-	margin-left:22%;
-	margin-right:22%;
+	top: 2%;
+	height: 5%;
+	margin-left:15%;
+	margin-right:15%;
 	}
 
-#workthumbnails{clear:both;
+#workthumbnails{
 	display: block;
 	text-align: center;
 	width:100%;
-	margin-left:22%;
-	margin-right:22%;
-	}
-	#ulthumbnails{display: inline;
-		margin-right: auto;
-		margin-left: auto;
-	}
-#workthumbnails2{clear:both;
-	display: block;
-	text-align: center;
-	width:100%;
-	margin-left:22%;
-	margin-right:22%;
-	}
-	#ulthumbnails2{display: inline;
-		margin-right: auto;
-		margin-left: auto;
+	height: auto;
+	overflow:hidden;
+
 	}
 
 		.lithumbnails {
-    	list-style:none;
-		float:left;
-		padding-left: 5%;
-		padding-right: 5%;
-		margin-left: auto;
-		margin-right: auto;  }
+		position: relative;
+    	float: left;
+    	width: 24%;
+    	height: 24%;
+    	margin-bottom: 2%;
+ 			  }
+
+		.lithumbnails>img {width:100%;}
 
 
 img{
