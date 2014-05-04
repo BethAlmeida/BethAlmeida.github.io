@@ -175,14 +175,18 @@ background-color: white;
 	background-color: white;
 }
 #statement{
+	position: absolute;
 	text-align: center;
-	margin-top:5%;
-	margin-left:35%;
-	margin-right:35%;
+	top:13%;
+	left:10%;
+	right:10%;
+	bottom: 13%;
 	padding: 5%;
 	background-color: white;
 }
 #sentence{text-align: center;
+			width:25%;
+			margin:auto;
 }
 #resume{text-align: center;
 }
@@ -190,6 +194,8 @@ background-color: white;
 }
 #email{text-align: center;
 }
+#line{width: 25%;
+	margin: auto;}
 
 #work{
 	display: block;
@@ -233,6 +239,10 @@ background-color: white;
 
 img{
 	width:100%;
+	height:auto; /* change to 100% to scale vertically*/
+	}
+	#photo{
+	width:25%;
 	height:auto; /* change to 100% to scale vertically*/
 	}
 
