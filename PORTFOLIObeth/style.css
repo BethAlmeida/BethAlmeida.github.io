@@ -99,7 +99,8 @@ html {height: 100%; overflow:hidden; padding: 0; margin: 0;}
 
 #main{
 height:100%;
-background-color: white;
+background-image:url('blue.jpg');
+
 }
 
 	#top{
@@ -108,6 +109,7 @@ background-color: white;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	text-align:center;
+	background-color: white;
 	}
 
 	#middle{
@@ -123,8 +125,9 @@ background-color: white;
 		float:left;
 		width:6%;
 		padding-right: 2%;
-		margin-top:20%;
+		padding-top:20%;
 		margin-bottom:30%;
+		background-color: white;
 
 		}
 			#artflip{
@@ -148,8 +151,10 @@ background-color: white;
 		float:left;
 		width:6%;
 		padding-left: 2%;
-		margin-top:20%;
+		padding-top:20%;
 		margin-bottom:30%;
+		background-color: white;
+
 		}
 			#designflip{
 			text-align:center;
@@ -166,6 +171,8 @@ background-color: white;
 		padding-top: 2%;
 		padding-bottom: 2%;
 		text-align:center;
+		background-color: white;
+
 		}
 #contact{
 	margin-top:10%;
