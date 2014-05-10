@@ -225,7 +225,7 @@ background-image:url('blue.jpg');
 	overflow:hidden;
 	margin-right:2%;
 	margin-top: 2%;
-	overflow: hidden;
+	overflow: scroll;
 	}
 
 		.lithumbnails {
