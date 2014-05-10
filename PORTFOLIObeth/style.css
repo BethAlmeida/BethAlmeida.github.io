@@ -251,8 +251,15 @@ background-image:url('blue.jpg');
 	height:100%;
 	overflow: scroll; 
 	}
-
 #selectionphoto{width:100%;}
+
+
+#stamp2{
+	width:50%;
+	height: auto;
+	overflow: hidden; 
+	}
+#selectionphoto2{width:22%;}
 
 
 #about{position: absolute;
