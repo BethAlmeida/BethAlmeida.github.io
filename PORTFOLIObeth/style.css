@@ -213,15 +213,15 @@ background-image:url('blue.jpg');
 	width:100%;
 	top: 2%;
 	height: 5%;
-	margin-left:17%;
-	margin-right:17%;
+	margin-left:16%;
+	margin-right:16%;
 	overflow: hidden;}
 
 #workthumbnails{
 	display: block;
 	text-align: center;
 	width:100%;
-	height: auto;
+	height: 100%;
 	overflow:hidden;
 	margin-right:2%;
 	margin-top: 2%;
@@ -232,7 +232,7 @@ background-image:url('blue.jpg');
 		position: relative;
     	float: left;
     	width: 23%;
-    	height: 23%;
+    	height: 46%;
     	margin: .5%;
     	margin-left: 1%;
     	overflow: hidden;
