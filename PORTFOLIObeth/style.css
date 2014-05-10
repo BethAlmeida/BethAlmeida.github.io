@@ -254,6 +254,14 @@ background-image:url('blue.jpg');
 
 #selectionphoto{width:100%;}
 
+
+#about{position: absolute;
+		right: 15%;
+		margin-left: 65%;
+		text-align: center;
+		width:25%;}
+
+
 img{
 	width:100%;
 	height:auto; /* change to 100% to scale vertically*/
