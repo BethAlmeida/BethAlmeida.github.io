@@ -246,8 +246,13 @@ background-image:url('blue.jpg');
 							width: 100%;
 							}
 
-#selectionphoto{width:50%;
-				overflow: hidden;}
+#stamp{
+	width:50%;
+	height:100%;
+	overflow: scroll; 
+	}
+
+#selectionphoto{width:100%;}
 
 img{
 	width:100%;
@@ -257,6 +262,8 @@ img{
 	width:25%;
 	height:auto; /* change to 100% to scale vertically*/
 	}
+
+
 
 	a:link {color:black;
 		text-decoration: none;
