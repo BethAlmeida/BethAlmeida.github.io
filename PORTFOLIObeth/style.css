@@ -63,10 +63,10 @@ h1 { font-family: 't-star mono round', sans-serif;
 	font-size: 1.2em;  }
 
 h2 { font-family: 't-star mono round', sans-serif;
-	font-size: 0.8em; text-align: left;  }
+	font-size: 0.1em; text-align: left;  }
 
 li { font-family: 't-star mono round', sans-serif;
-	font-size: 0.6em; text-align: center;
+	font-size: 0.8em; text-align: center;
 
 	display: inline;
     list-style:none;
@@ -82,7 +82,7 @@ li { font-family: 't-star mono round', sans-serif;
 	}	
 
 p{ font-family: serif;
-	font-size: 0.3em;
+	font-size: 0.5em;
 	text-align: left;}
 
 
@@ -205,11 +205,13 @@ background-repeat: no-repeat;*/
 	padding: 5%;
 	background-color: white;
 }
-#sentence{text-align: center;
+#sentence{text-align: left;
 			width:25%;
 			margin:auto;
 }
-#resume{text-align: center;
+#resume{text-align: left;
+		width:25%;
+		margin:auto;
 }
 #contactme{text-align: center;
 }
