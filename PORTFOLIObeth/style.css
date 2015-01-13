@@ -237,11 +237,12 @@ background-repeat: no-repeat;*/
 	text-align: center;
 	width:20px;
 	height:20px;
-	overflow:hidden;
-	overflow: scroll;
-	}
+	/*overflow:hidden;
+	overflow: scroll;*/
+		}
 
 		.lithumbnails {
+
 		position: relative;
     	float: left;
     	width: 100%;
@@ -249,6 +250,33 @@ background-repeat: no-repeat;*/
     	overflow: hidden;
     	border-width: 1px;
     	border-style: solid;
+
+
+
+ 			  }
+
+
+
+#bullets{
+	float: left;
+	margin-left: 80px;
+	margin-top: 20px;
+		}
+
+ 			  .lithumbnailsbullet {
+			
+		position: relative;
+    	float: left;
+    	width: 10px;
+    	height: 10px;
+    	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    	background-color: black;
+    	border-width: 1px;
+    	border-style: solid;
+    	margin: 20px;
+
 
  			  }
 
