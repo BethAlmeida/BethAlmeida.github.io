@@ -59,13 +59,13 @@ table {
 
 /* END RESET */
 
-h1 { font-family: 'Whitney', sans-serif;
-	font-size: 1em;  }
+h1 { font-family: 't-star mono round', sans-serif;
+	font-size: 1.2em;  }
 
-h2 { font-family: 'Whitney', sans-serif;
+h2 { font-family: 't-star mono round', sans-serif;
 	font-size: 0.8em; text-align: left;  }
 
-li { font-family: 'Whitney', sans-serif;
+li { font-family: 't-star mono round', sans-serif;
 	font-size: 0.6em; text-align: center;
 
 	display: inline;
