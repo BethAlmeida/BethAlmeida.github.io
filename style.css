@@ -1,0 +1,245 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	height:100%;
+	line-height:100%;
+	background-color: white;
+	}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* END RESET */
+
+h1 { font-family: 'Akkurat Mono', sans-serif;
+	font-size: 1.2em;  color:black;}
+
+h2 { font-family: 'Akkurat Mono', sans-serif;
+	font-size: 1em; text-align: left; color:black;  }
+
+h3 { font-family: 'Akkurat Mono', sans-serif;
+	font-size: 0.8em; text-align: left; color:black; }
+
+h4 { font-family: 'Akkurat Mono', sans-serif;
+	font-size: 0.6em; text-align: left; color:black; }
+
+h5 { font-family: 'Akkurat Mono', sans-serif;
+	font-size: 0.4em; text-align: left; color:black;  }
+
+
+
+li { font-family: 'Akkurat Mono', sans-serif; font-weight: bold;
+	font-size: 0.8em; color:black;
+	display: inline;
+    list-style:none;
+	float:left;
+	}
+
+
+		
+
+p{ font-family: 'Akkurat Mono', sans-serif; 
+	font-weight: bold;
+	font-size: 0.8em; 
+	text-align: left; 
+	color:black;
+	display: inline;
+    list-style:none;
+	line-height: 2em;}
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+
+	a:link {color:black;
+		text-decoration: none;
+	}
+	a:visited {color:black;
+		text-decoration: none;
+	}
+	a:hover {color:#0066CC;
+		text-decoration: none;
+	}
+
+
+
+	.top{
+		width: 20%;
+		position: fixed;
+		height: 100%;
+		top: 0;
+	}
+
+	.logo{
+		position: absolute;		
+		margin-left: 60px;
+		margin-top: 90px;
+		width: 100px;
+	}
+
+	.navList{
+		text-align: center;
+		width:20%;
+		height: 100%;
+		margin-top: 290px;
+		}
+	
+	.list{
+		display: block;
+		margin-top: 40px;
+		margin-left: 82px;
+		width: 30%;
+	}
+	
+		.list2{
+		display: block;
+		margin-top: 10px;
+		margin-left: 50px;
+		width: 36%;
+	}
+
+
+	.content{
+	width:80%;
+	margin-left: 20%;
+	}
+
+	.grid{
+		width: 86%;
+		margin-right: 9%;
+		margin-left: 5%;
+
+		margin-top: 100px;
+
+		line-height: 0;
+   
+  -webkit-column-count: 4;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    4;
+  -moz-column-gap:      0px;
+  column-count:         4;
+  column-gap:           0px;  
+}
+
+/*	.thumbnail{
+		  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}*/
+
+	.werk{
+			width: 100% !important;
+  			height: auto !important;
+	}
+/*@media (max-width: 1200px) {
+  .grid {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  .grid {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }*/
+}
+@media (max-width: 800px) {
+  .grid  {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  .grid  {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+
+
+	.menail{
+		display: inline-block;
+		float: left;
+		margin: 10px;
+		height: 300px;
+	}
+
+	.squiggle{
+		width:40px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
