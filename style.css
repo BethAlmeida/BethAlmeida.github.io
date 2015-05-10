@@ -181,13 +181,8 @@ p{ font-family: 'Inconsolata';
 		margin-left: 5%;
 		margin-top: 100px;
 		line-height: 0;
+		display: inline-block;
    
-  	-webkit-column-count: 5;
-  	-webkit-column-gap:   5px;
-  	-moz-column-count:    5;
-  	-moz-column-gap:      5px;
-  	column-count:         5;
-  	column-gap:           5px;  
 	}
 
 	.werk{
