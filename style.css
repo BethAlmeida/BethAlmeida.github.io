@@ -235,3 +235,13 @@ p{ font-family: 'Inconsolata';
   }
 }
 
+
+.contentsecond{
+		width:90%;
+		margin-left: 20%;
+		margin-top: -60px;
+	}
+.contentsecond img{
+	width: 900px;
+}
+
