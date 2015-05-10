@@ -58,25 +58,26 @@ table {
 
 /* END RESET */
 
-h1 { font-family: 'Akkurat Mono', sans-serif;
+h1 { font-family: 'Inconsolata';
 	font-size: 1.2em;  color:black;}
 
-h2 { font-family: 'Akkurat Mono', sans-serif;
+h2 { font-family: 'Inconsolata';
 	font-size: 1em; text-align: left; color:black;  }
 
-h3 { font-family: 'Akkurat Mono', sans-serif;
+h3 { font-family: 'Inconsolata';
 	font-size: 0.8em; text-align: left; color:black; }
 
-h4 { font-family: 'Akkurat Mono', sans-serif;
+h4 { font-family: 'Inconsolata';
 	font-size: 0.6em; text-align: left; color:black; }
 
-h5 { font-family: 'Akkurat Mono', sans-serif;
+h5 { font-family: 'Inconsolata';
 	font-size: 0.4em; text-align: left; color:black;  }
 
 
 
-li { font-family: 'Akkurat Mono', sans-serif; font-weight: bold;
-	font-size: 0.8em; color:black;
+li { font-family: 'Inconsolata';
+	font-size: 0.8em; 
+	color:black;
 	display: inline;
     list-style:none;
 	float:left;
@@ -85,8 +86,7 @@ li { font-family: 'Akkurat Mono', sans-serif; font-weight: bold;
 
 		
 
-p{ font-family: 'Akkurat Mono', sans-serif; 
-	font-weight: bold;
+p{ font-family: 'Inconsolata'; 
 	font-size: 0.8em; 
 	text-align: left; 
 	color:black;
@@ -144,14 +144,37 @@ p{ font-family: 'Akkurat Mono', sans-serif;
 		margin-left: 82px;
 		width: 30%;
 	}
+
+		.grid2{
+		width: 86%;
+		margin-right: 9%;
+		margin-left: 5%;
+
+		margin-top: 100px;
+
+		line-height: 0;
+		position: relative;
+    
+}
 	
-		.list2{
-		display: block;
+.list2{
+		float: left;
 		margin-top: 10px;
 		margin-left: 50px;
 		width: 36%;
 	}
 
+.menail{
+		float: left;
+		clear: both;
+		margin: 10px;
+		width: 50%;
+	}
+
+	.myname{
+		padding-bottom: 25px;
+
+	}
 
 	.content{
 	width:80%;
@@ -174,6 +197,8 @@ p{ font-family: 'Akkurat Mono', sans-serif;
   column-count:         4;
   column-gap:           0px;  
 }
+
+
 
 /*	.thumbnail{
 		  line-height: 0;
@@ -220,13 +245,13 @@ p{ font-family: 'Akkurat Mono', sans-serif;
 }
 
 
-
-	.menail{
-		display: inline-block;
-		float: left;
-		margin: 10px;
-		height: 300px;
+.mememe{
+			width: 100% !important;
+  			height: auto !important;
 	}
+
+
+	
 
 	.squiggle{
 		width:40px;
