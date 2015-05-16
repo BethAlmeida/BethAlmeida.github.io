@@ -107,7 +107,7 @@ table {
 			width: 175px !important;
   			height: auto !important;
   			margin-top: 5px;
-  			padding-right: 5px; 
+  			padding-left: 40px; 
 			}
 
 
@@ -282,4 +282,6 @@ p{ font-family: 'Inconsolata';
 	margin-right: 20px;}
 
 
+
+#homescope a:hover{}
 
