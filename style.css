@@ -86,6 +86,8 @@ table {
 		margin-left:40px;
 		width: 30%;
 		padding: 5px;
+		font-weight: bolder;
+
 		}
 
 	.content{
@@ -190,6 +192,7 @@ p{ font-family: 'Inconsolata';
 		clear: both;
 		margin: 10px;
 		width: 40%;
+		padding-bottom: 14%
 	}
 		.mememe{
 			width: 100% !important;
@@ -199,16 +202,19 @@ p{ font-family: 'Inconsolata';
 		float: left;
 		margin-top: 10px;
 		margin-left: 50px;
-		width: 40%;
+		width: 36%;
 	}
 		.myname{
 			padding-bottom: 25px;
 			padding-top: 5px;
+			font-weight: bolder;
 		}
 		.squiggle{
-			width:40px;
-			margin-top: 20px;
+			width:60px;
+			margin-top: 10px;
 			margin-bottom: 20px;
+			margin-left: 75%;
+			padding: 5px;
 		}
 
 	
@@ -228,11 +234,11 @@ p{ font-family: 'Inconsolata';
 
 
 .footer{
-		width: 100%;
+		width: 94%;
 		height: auto;
 		clear: both;
 		float: left;
-		margin-top: 80px;
+		margin-top:10%;
 		margin-bottom: 0;
 		margin-left: 30px;
 	}
@@ -247,4 +253,32 @@ p{ font-family: 'Inconsolata';
 	    padding: .5px;
 	    background: linear-gradient(45deg, #33CCFF, #6600CC);
 	  	}
-.copyright{}
+	.copyright{font-family: 'Inconsolata'; 
+		font-size: 0.6em; 
+		text-align: right; 
+		color:black;
+		display: inline;
+    	list-style:none;
+		line-height: 2em;
+		float: right;
+		}
+
+.linksies{
+	float: left;
+	margin-top: 6%;
+
+	font-family: 'Inconsolata'; 
+	font-size: .8em; 
+	text-align: left; 
+	color:black;
+	display: inline;
+    list-style:none;
+	line-height: 2em;
+}
+
+.linksies p{
+	margin-right: 20px;
+
+}
+
+
