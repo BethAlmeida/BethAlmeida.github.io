@@ -180,12 +180,10 @@ p{ font-family: 'Inconsolata';
 
 
 	.grid2{
-		width: 86%;
-		margin-right: 9%;
-		margin-left: 5%;
+		width: 100%;
 		margin-top: 100px;
 		line-height: 0;
-		position: relative;  
+		display: inline-block; 
 	}
 	.menail{
 		float: left;
