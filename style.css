@@ -97,10 +97,12 @@ table {
 	}
 		.grid{
 		width: 100%;
-		margin-top: 100px;
+		margin-top: 50px;
 		line-height: 0;
 		display: inline-block;
 		}
+
+
 			.werk{
 			width: 175px !important;
   			height: auto !important;
