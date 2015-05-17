@@ -1,0 +1,259 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	height:100%;
+	line-height:100%;
+	background-color: white;
+	}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* END RESET */
+
+#everything{
+	position: relative;
+	float: left;
+	width: 100vw;
+	height: 100vh;
+	margin-left: 0;
+	margin-right: 0;
+}
+	.nav ul{
+		display: inline-block;
+		position: fixed;
+		right:0px;
+		padding-top: 10px;
+		padding-right: 10px;
+
+	}
+		.nav li{
+		padding: 30px;
+	}
+	.logoSmall{
+		display: none;
+		position: fixed;
+		left:0px;
+		padding-left:25px;
+		padding-top: 25px;
+	}
+	.logoSmall img{
+		width:60px;
+	}
+
+
+	.splash{
+		width: 40%;
+		margin-left: 25%;
+		margin-right: 35%;
+		padding-top: 16%;
+	}
+		.logo{
+			width: 50%;
+			margin-left: 25%;
+			margin-right: 25%;
+			padding: 25px;
+			text-align: center;
+		}
+
+#content{
+	position: relative;
+	float: left;
+	clear:both;
+	width: 100vw;
+	height: auto;
+	margin-left: 0;
+	margin-right: 0;
+}
+	.works{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		height: auto;
+	}
+		.works ul{
+			display: inline-block;
+			position: relative;
+			right:0px;
+			margin-top: 100px;
+			margin-bottom: 100px;
+			width: 80%;
+			margin-left: 10%;
+			margin-right: 10%; 
+		}
+			.works li{
+				display: inline-block;
+				float: left;
+				text-align: center;
+				width:30%;
+				margin-left:10%;
+				margin-right:10%;
+				margin-bottom: 50px;
+			}
+			.thumbnail{
+				width: 100%;
+			}
+
+
+#feet{
+ 	position: relative;
+ 	float: left;
+	clear:both;
+	width: 100vw;
+	height: 160px;
+	margin-left: 0;
+	margin-right: 0;
+}
+	.links{
+		float: left;
+		width: 50%;
+		margin-left: 35%;
+		margin-right: 25%;
+		padding-top: 40px;
+
+		text-align: center;
+	}
+		.links ul{
+			display: inline;
+		}
+			.links li{
+				display: inline;
+				text-align: center;
+				padding-right: 50px;
+				margin: 5px;
+			}
+
+	.copyright{
+		float: left;
+		clear: both;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		padding-top: 40px;
+		text-align: center;
+	}
+
+
+
+		
+
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 1000px) {
+  }
+
+
+@media (max-width: 800px) {
+}
+@media (max-width: 400px) {
+}
+
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	}
+
+h1 { font-family: 'Inconsolata';
+	font-size: 1.2em;  color:black;}
+
+h2 { font-family: 'Inconsolata';
+	font-size: 1em; text-align: left; color:black;  }
+
+h3 { font-family: 'Inconsolata';
+	font-size: 0.8em; text-align: left; color:black; }
+
+h4 { font-family: 'Inconsolata';
+	font-size: 0.6em; text-align: left; color:black; }
+
+h5 { font-family: 'Inconsolata';
+	font-size: 0.4em; text-align: left; color:black;  }
+
+li { font-family: 'Inconsolata';
+	font-size: 0.8em; 
+	color:black;
+	display: inline;
+    list-style:none;
+	float:left;
+	}
+
+
+
+p{ font-family: 'Inconsolata'; 
+	font-size: 0.8em; 
+	text-align: left; 
+	color:black;
+	display: inline;
+    list-style:none;
+	line-height: 2em;}
+
+
+	a:link {color:black;
+		text-decoration: none;
+	}
+	a:visited {color:black;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+
+
+
+
+
+
+
