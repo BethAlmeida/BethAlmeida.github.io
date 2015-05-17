@@ -25,6 +25,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	cursor: crosshair;
 
 }
 /* HTML5 display-role reset for older browsers */
@@ -76,10 +77,13 @@ table {
 	}
 		.nav li{
 		padding: 30px;
+		font-weight: bold;
+		letter-spacing: 1px;
+
 	}
 	.logoSmall{
-		display: none;
-		position: fixed;
+/*		display: none;
+*/		position: fixed;
 		left:0px;
 		padding-left:25px;
 		padding-top: 25px;
@@ -123,7 +127,7 @@ table {
 			position: relative;
 			right:0px;
 			margin-top: 100px;
-			margin-bottom: 100px;
+			margin-bottom: 0px;
 			width: 100%; 
 		}
 			.works li{
@@ -158,16 +162,19 @@ table {
  	float: left;
 	clear:both;
 	width: 100vw;
-	height: 160px;
 	margin-left: 0;
 	margin-right: 0;
+background: -webkit-linear-gradient(left top,  #33CCFF, #59D6FF, #6600CC, #622B95); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #33CCFF, #59D6FF,#33CCFF,#6600CC, #622B95); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #33CCFF, #59D6FF,#33CCFF,#6600CC, #622B95); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, , #59D6FF,#33CCFF,#6600CC, #622B95); /* Standard syntax (must be last) */	padding-top: 20px;
 }
 	.links{
 		float: left;
 		width: 50%;
 		margin-left: 35%;
 		margin-right: 25%;
-		padding-top: 40px;
+		padding-top: 0px;
 
 		text-align: center;
 	}
@@ -179,6 +186,13 @@ table {
 				text-align: center;
 				padding-right: 50px;
 				margin: 5px;
+			}
+				.links p{
+				color: white;
+			}
+				.copyright h4{
+				color: white;
+				padding-bottom: 10px;
 			}
 
 	.copyright{
@@ -228,7 +242,7 @@ h3 { font-family: 'Inconsolata';
 	font-size: 0.8em; text-align: left; color:black; }
 
 h4 { font-family: 'Inconsolata';
-	font-size: 0.6em; text-align: left; color:black; }
+	font-size: 0.6em; color:black; }
 
 h5 { font-family: 'Inconsolata';
 	font-size: 0.4em; text-align: left; color:black;  }
@@ -249,7 +263,9 @@ p{ font-family: 'Inconsolata';
 	color:black;
 	display: inline;
     list-style:none;
-	line-height: 2em;}
+	line-height: 2em;
+	font-weight: bolder;
+	letter-spacing: .8px;}
 
 
 	a:link {color:black;
