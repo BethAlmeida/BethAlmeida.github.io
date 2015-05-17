@@ -140,23 +140,149 @@ table {
 				width: 80%;
 			}
 
+			
+			.home{
+			}
+			
+			.hidden{
+				display: none;
+			}
+
+				.showhome:hover .home{
+				display: none;
+			}
+
+				.showhome:hover .hidden{
+				display: inline-block;
+			}
+				.showhome:hover h3{
+				visibility: visible;;
+				text-align: center;
+			}
+				
+				.here{
+			}
+			
+			.hiddenh{
+				display: none;
+			}
+
+				.showhere:hover .here{
+				display: none;
+			}
+
+				.showhere:hover .hiddenh{
+				display: inline-block;
+			}
+				.showhere:hover h3{
+				visibility: visible;;
+				text-align: center;
+			}
+
+			
+			.mag{
+			}
+			
+			.hiddenm{
+				display: none;
+			}
+
+				.showmag:hover .mag{
+				display: none;
+			}
+
+				.showmag:hover .hiddenm{
+				display: inline-block;
+			}
+				.showmag:hover h3{
+				visibility: visible;;
+				text-align: center;
+			}
+
+				.enchroma{
+			}
+			
+			.hiddene{
+				display: none;
+			}
+
+				.showenchroma:hover .enchroma{
+				display: none;
+			}
+
+				.showenchroma:hover .hiddene{
+				display: inline-block;
+			}
+				.showenchroma:hover h3{
+				visibility: visible;;
+				text-align: center;
+			}
+
+				
+				.hmnh{
+			}
+			
+				.hiddenhmnh{
+				display: none;
+			}
+
+				.showhmnh:hover .hmnh{
+				display: none;
+			}
+
+				.showhmnh:hover .hiddenhmnh{
+				display: inline-block;
+			}
+				.showhmnh:hover h3{
+				visibility: visible;;
+				text-align: center;
+			}
+		
+
+			.vision{
+			}
+			
+			.hiddenv{
+				display: none;
+			}
+
+				.showvision:hover .vision{
+				display: none;
+			}
+
+				.showvision:hover .hiddenv{
+				display: inline-block;
+			}
+				.showvision:hover h3{
+				visibility: visible;;
+				text-align: center;
+			}
+	
+				
+			.works h3{
+				visibility: hidden;
+				text-align: center;
+				width:40%;
+				display: inline-block;
+			}
 				.left{
 				float: left;
 				clear: left;
 				margin-left: 10%;
+				margin-bottom: 50px;
+
 			}
 				.right{
 				float: right;
 				clear: right;
 				margin-right: 10%;
+				margin-bottom: 50px;
+
 			}
 
-				.works h3{
-				display: inline-block;
-				text-align: center;
-				width:25%;
-				margin-bottom: 50px;
-			}
+			
+
+
 #feet{
  	position: relative;
  	float: left;
