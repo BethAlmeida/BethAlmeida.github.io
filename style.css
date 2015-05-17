@@ -67,7 +67,7 @@ table {
 	.top{
 		width: 10%;
 		height: auto;
-		float: left;
+		position: fixed;
 	}
 		.logo{
 		margin-left: 20px;
