@@ -87,8 +87,17 @@ table {
 		width: 30%;
 		padding: 5px;
 		font-weight: bolder;
-
 		}
+
+		.list a{
+		padding: 5px;
+		}
+
+		.list a:hover {
+		background:black;
+  		color: white;
+		text-decoration: none;
+	}
 
 	.content{
 		width:85%;
@@ -104,24 +113,34 @@ table {
 
 
 			.werk{
-			width: 175px !important;
-  			height: 220px !important;
-  			margin-top: 5px;
-  			padding-left: 50px; 
+			width: 160px !important;
+  			height: 175px !important;
+  			margin-top: 20px;
+  			margin-bottom: 20px;
+  			padding-left: 15px; 
   			display: inline-block;
   			float: left;
 			}
-			.werk:hover .addTitle{display: inline-block;}
+			.werk:hover .addTitle{
+				display: inline-block;
+	
+			}
 
+	
 	
 				.thumbnail{
 				width: 100%;
+				text-align: center;
 				}
 				.addTitle{
 				text-align: center;
 				width: 100%;
   				display: none;
-
+				}
+				.addTitle p{
+  		 		background:linear-gradient(45deg, #33CCFF, #6600CC);
+  		 		color: white;
+  		 		padding: 3px; 
 				}
 
 
@@ -178,6 +197,8 @@ li { font-family: 'Inconsolata';
 	float:left;
 	}
 
+
+
 p{ font-family: 'Inconsolata'; 
 	font-size: 0.8em; 
 	text-align: left; 
@@ -193,7 +214,8 @@ p{ font-family: 'Inconsolata';
 	a:visited {color:black;
 		text-decoration: none;
 	}
-	a:hover {color:#33CCFF;
+	a:hover {
+
 		text-decoration: none;
 	}
 
