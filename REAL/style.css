@@ -78,14 +78,14 @@ table {
 		padding: 30px;
 		font-weight: bold;
 		letter-spacing: 1px;
-	}
+		}
 		.nav a{
 		padding-bottom: 10px;
-	}
-	.nav a:hover{
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	}
+		}
+		.nav a:hover{
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		}
 
 	.logoSmall{
 /*		display: none;
@@ -94,17 +94,14 @@ table {
 		padding-left:25px;
 		padding-top: 25px;
 	}
-
 	.logoSmall a{
 		margin-bottom: 10px;
 	}
 	.logoSmall a:hover{
 	}
-	
 	.logoSmall img{
 		width:60px;
 	}
-
 
 	.splash{
 		width: 40%;
@@ -159,15 +156,12 @@ table {
 			
 			.home{
 			}
-			
 			.hidden{
 				display: none;
 			}
-
 				.showhome:hover .home{
 				display: none;
 			}
-
 				.showhome:hover .hidden{
 				display: inline-block;
 			}
@@ -176,37 +170,32 @@ table {
 				text-align: center;
 			}
 				
-				.here{
+			.here{
 			}
-			
 			.hiddenh{
 				display: none;
 			}
-
 				.showhere:hover .here{
 				display: none;
 			}
-
 				.showhere:hover .hiddenh{
 				display: inline-block;
+				z-index: 6;
+
 			}
 				.showhere:hover h3{
 				visibility: visible;;
 				text-align: center;
 			}
 
-			
 			.mag{
 			}
-			
 			.hiddenm{
 				display: none;
 			}
-
 				.showmag:hover .mag{
 				display: none;
 			}
-
 				.showmag:hover .hiddenm{
 				display: inline-block;
 			}
@@ -215,17 +204,14 @@ table {
 				text-align: center;
 			}
 
-				.enchroma{
+			.enchroma{
 			}
-			
 			.hiddene{
 				display: none;
 			}
-
 				.showenchroma:hover .enchroma{
 				display: none;
 			}
-
 				.showenchroma:hover .hiddene{
 				display: inline-block;
 			}
@@ -233,19 +219,15 @@ table {
 				visibility: visible;;
 				text-align: center;
 			}
-
 				
-				.hmnh{
+			.hmnh{
 			}
-			
-				.hiddenhmnh{
+			.hiddenhmnh{
 				display: none;
 			}
-
 				.showhmnh:hover .hmnh{
 				display: none;
 			}
-
 				.showhmnh:hover .hiddenhmnh{
 				display: inline-block;
 			}
@@ -254,18 +236,14 @@ table {
 				text-align: center;
 			}
 		
-
 			.vision{
 			}
-			
 			.hiddenv{
 				display: none;
 			}
-
 				.showvision:hover .vision{
 				display: none;
 			}
-
 				.showvision:hover .hiddenv{
 				display: inline-block;
 			}
@@ -273,31 +251,42 @@ table {
 				visibility: visible;;
 				text-align: center;
 			}
-	
-				
+		
 			.works h3{
 				visibility: hidden;
 				text-align: center;
-				width:40%;
+				width:100%;
 				display: inline-block;
+				font-size: 1.6em;
+			}
+
+			.captions{
+				float: left;
+				margin-top: -150px;
+				color: black;
+				font-weight: bolder;
+				line-height: 1.2;
+				z-index: 200;
+				letter-spacing: 1.2px;
+
+			}
+			.captions p{
+				font-weight: lighter;
 			}
 				.left{
 				float: left;
 				clear: left;
 				margin-left: 10%;
 				margin-bottom: 50px;
-
 			}
 				.right{
 				float: right;
 				clear: right;
 				margin-right: 10%;
 				margin-bottom: 50px;
-
 			}
 
 			
-
 
 #feet{
  	position: relative;
@@ -317,7 +306,6 @@ table {
 		margin-left: 35%;
 		margin-right: 25%;
 		padding-top: 0px;
-
 		text-align: center;
 	}
 		.links ul{
@@ -398,8 +386,6 @@ li { font-family: 'Inconsolata';
 	float:left;
 	}
 
-
-
 p{ font-family: 'Inconsolata'; 
 	font-size: 0.8em; 
 	text-align: left; 
@@ -408,7 +394,6 @@ p{ font-family: 'Inconsolata';
     list-style:none;
 	line-height: 2em;
 	letter-spacing: .8px;}
-
 
 	a:link {color:black;
 		text-decoration: none;
@@ -419,7 +404,6 @@ p{ font-family: 'Inconsolata';
 	a:hover {
 		text-decoration: none;
 	}
-
 
 #allaboutme{
 	position: relative;
@@ -433,13 +417,12 @@ p{ font-family: 'Inconsolata';
 .aboot{
 	text-align: left;
 }
-
-
 .me{
 		width: 80%;
 		margin-left: 10%;
 		margin-right: 10%;
-		margin-top: 120px;
+		margin-top: 100px;
+		margin-bottom: 20px;
 		height: auto;
 	}
 		.me ul{
@@ -457,9 +440,19 @@ p{ font-family: 'Inconsolata';
 			}
 				.me h2{
 				padding-bottom: 10px;
-				font-weight: bold;
-				letter-spacing: 1px;
+				color: black;
+				font-weight: bolder;
+				z-index: 200;
+				letter-spacing: 1.2px;
+				font-size: 1.6em;
 			}
+				.me p{
+				padding-bottom: 10px;
+				color: black;
+				z-index: 200;
+				font-size: 1em;
+			}
+
 
 	.squiggle{
 			width:60px;
@@ -468,7 +461,6 @@ p{ font-family: 'Inconsolata';
 			margin-left: 75%;
 			padding: 5px;
 		}
-
 		.mememe{
 			width: 120%;
 			float: left;
@@ -476,3 +468,5 @@ p{ font-family: 'Inconsolata';
 			margin-left: 10%;
 			margin-bottom: 50px;
 		}
+
+
