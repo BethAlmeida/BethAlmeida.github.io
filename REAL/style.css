@@ -131,6 +131,7 @@ table {
 	margin-left: 0;
 	margin-right: 0;
 	background-color: white;
+	margin-bottom: 25px;
 }
 	.works{
 		width: 80%;
@@ -149,9 +150,10 @@ table {
 			.works li{
 				display: inline-block;
 				text-align: center;
-				width:20%;
-				margin-bottom: 50px;
+				width:25%;
+				margin: 4%;
 			}
+
 			.thumbnail{
 				width: 80%;
 			}
@@ -264,7 +266,7 @@ table {
 
 			.captions{
 				float: left;
-				margin-top: -150px;
+				margin-top: -125px;
 				color: black;
 				font-weight: bolder;
 				line-height: 1.2;
@@ -277,7 +279,6 @@ table {
 			}
 				.left{
 				float: left;
-				margin-left: 10%;
 				margin-bottom: 50px;
 			}
 	
@@ -340,13 +341,13 @@ table {
 		
 
 
-@media (max-width: 1200px) {
-}
-@media (max-width: 1000px) {
-  }
-
-
-@media (max-width: 800px) {
+@media (max-width: 700px) {
+			.works li{
+				display: inline-block;
+				text-align: center;
+				width:40%;
+				margin:4%;
+			}
 }
 @media (max-width: 400px) {
 }
