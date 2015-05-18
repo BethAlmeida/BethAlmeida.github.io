@@ -61,11 +61,13 @@ table {
 
 #everything{
 	position: relative;
-	float: left;
+	float: bottom;
 	width: 100vw;
 	height: 100vh;
 	margin-left: 0;
 	margin-right: 0;
+	background-color: white;
+
 }
 	.nav ul{
 		display: inline-block;
@@ -128,6 +130,7 @@ table {
 	height: auto;
 	margin-left: 0;
 	margin-right: 0;
+	background-color: white;
 }
 	.works{
 		width: 80%;
@@ -286,8 +289,10 @@ table {
  	float: left;
 	clear:both;
 	width: 100vw;
+	height: auto;
 	margin-left: 0;
 	margin-right: 0;
+	background-color: white;
 /*background: -webkit-linear-gradient(left top,  #33CCFF, #59D6FF, #6600CC, #622B95); /* For Safari 5.1 to 6.0 
     background: -o-linear-gradient(bottom right, #33CCFF, #59D6FF,#33CCFF,#6600CC, #622B95); /* For Opera 11.1 to 12.0 
     background: -moz-linear-gradient(bottom right, #33CCFF, #59D6FF,#33CCFF,#6600CC, #622B95); /* For Firefox 3.6 to 15 
@@ -296,19 +301,20 @@ table {
 	.links{
 		float: left;
 		width: 50%;
-		margin-left: 35%;
+		margin-left: 25%;
 		margin-right: 25%;
 		padding-top: 0px;
 		text-align: center;
 	}
 		.links ul{
 			display: inline;
+			width: 100%;
 		}
 			.links li{
 				display: inline;
 				text-align: center;
-				padding-right: 50px;
-				margin: 5px;
+				padding-right: 5%;
+				width: 20%;
 			}
 				.links p{
 				color: black;
