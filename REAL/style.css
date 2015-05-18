@@ -349,9 +349,15 @@ table {
 				margin:4%;
 			}
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+			.works li{
+				display: inline-block;
+				text-align: center;
+				width:75%;
+				margin:4%;
+				padding-left: 30px;
+			}
 }
-
 
 
 .clearfix:after {
