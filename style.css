@@ -25,6 +25,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	cursor: crosshair;
 
 }
 /* HTML5 display-role reset for older browsers */
@@ -59,110 +60,385 @@ table {
 /* END RESET */
 
 #everything{
+	position: relative;
+	float: bottom;
+	width: 100vw;
+	height: 100vh;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: white;
 
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
 }
-	.top{
-		width: 10%;
-		height: auto;
-		position: fixed;
-	}
-		.logo{
-		margin-left: 20px;
-		margin-top: 80px;
-		width: 100px;
-		}
-		.navList{
-		text-align: center;
-		width:100px;
-		height: 100%;
-		margin-top: 0px;
-		}
-		.list{
-		display: block;
-		margin-top:40px;
-		margin-left:40px;
-		width: 30%;
-		padding: 5px;
-		font-weight: bolder;
-		}
-
-		.list a{
-		padding: 5px;
-		}
-
-		.list a:hover {
-		background:black;
-  		color: white;
-		text-decoration: none;
-	}
-
-	.content{
-		width:85%;
-		margin-left: 180px;
-		margin-right: 0;
-	}
-		.grid{
-		width: 100%;
-		margin-top: 60px;
-		line-height: 0;
+	.nav ul{
 		display: inline-block;
+		position: fixed;
+		right:0px;
+		padding-top: 10px;
+		padding-right: 10px;
+	}
+		.nav li{
+		padding: 30px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		}
+		.nav a{
+		padding-bottom: 10px;
+		}
+		.nav a:hover{
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
 		}
 
+	.logoSmall{
+/*		display: none;
+*/		position: fixed;
+		left:0px;
+		padding-left:25px;
+		padding-top: 25px;
+	}
+	.logoSmall a{
+		margin-bottom: 10px;
+	}
+	.logoSmall a:hover{
+	}
+	.logoSmall img{
+		width:60px;
+	}
 
-			.werk{
-			width: 160px !important;
-  			height: 175px !important;
-  			margin-top: 22px;
-  			margin-bottom: 22px;
-  			padding-left: 15px; 
-  			display: inline-block;
-  			float: left;
-			}
-			.werk:hover .addTitle{
+	.splash{
+		width: 40%;
+		margin-left: 25%;
+		margin-right: 35%;
+		padding-top: 16%;
+	}
+		.logo img{
+			width: 100%;
+		}
+		.logo{
+			width: 50%;
+			margin-left: 25%;
+			margin-right: 25%;
+			padding: 25px;
+			text-align: center;
+		}
+
+#content{
+	position: relative;
+	float: left;
+	clear:both;
+	width: 100vw;
+	height: auto;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: white;
+	margin-bottom: 25px;
+}
+	.works{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		height: auto;
+	}
+		.works ul{
+			display: inline-block;
+			position: relative;
+			right:0px;
+			margin-top: 100px;
+			width: 100%; 
+			height: auto;
+		}
+			.works li{
 				display: inline-block;
-	
+				text-align: center;
+				width:25%;
+				margin: 4%;
 			}
 
-	
-	
-				.thumbnail{
-				width: 100%;
+			.thumbnail{
+				width: 80%;
+			}
+
+			.home{
+			}
+			.hidden{
+				display: none;
+			}
+				.showhome:hover .home{
+				display: none;
+			}
+				.showhome:hover .hidden{
+				display: inline-block;
+			}
+				.showhome:hover h3{
+				visibility: visible;;
 				text-align: center;
-				}
-				.addTitle{
+			}
+				
+			.here{
+			}
+			.hiddenh{
+				display: none;
+			}
+				.showhere:hover .here{
+				display: none;
+			}
+				.showhere:hover .hiddenh{
+				display: inline-block;
+				z-index: 6;
+
+			}
+				.showhere:hover h3{
+				visibility: visible;;
 				text-align: center;
-				width: 100%;
-  				display: none;
-				}
-				.addTitle p{
-  		 		background:linear-gradient(45deg, #33CCFF, #6600CC);
-  		 		color: white;
-  		 		padding: 3px; 
-				}
+			}
+
+			.mag{
+			}
+			.hiddenm{
+				display: none;
+			}
+				.showmag:hover .mag{
+				display: none;
+			}
+				.showmag:hover .hiddenm{
+				display: inline-block;
+			}
+				.showmag:hover h3{
+				visibility: visible;;
+				text-align: center;
+			}
+
+			.enchroma{
+			}
+			.hiddene{
+				display: none;
+			}
+				.showenchroma:hover .enchroma{
+				display: none;
+			}
+				.showenchroma:hover .hiddene{
+				display: inline-block;
+			}
+				.showenchroma:hover h3{
+				visibility: visible;;
+				text-align: center;
+			}
+				
+			.hmnh{
+			}
+			.hiddenhmnh{
+				display: none;
+			}
+				.showhmnh:hover .hmnh{
+				display: none;
+			}
+				.showhmnh:hover .hiddenhmnh{
+				display: inline-block;
+			}
+				.showhmnh:hover h3{
+				visibility: visible;;
+				text-align: center;
+			}
+		
+			.vision{
+			}
+			.hiddenv{
+				display: none;
+			}
+				.showvision:hover .vision{
+				display: none;
+			}
+				.showvision:hover .hiddenv{
+				display: inline-block;
+			}
+				.showvision:hover h3{
+				visibility: visible;;
+				text-align: center;
+			}
+		
+			.works h3{
+				visibility: hidden;
+				text-align: center;
+				width:100%;
+				display: inline-block;
+				font-size: 1.6em;
+			}
+
+			.captions{
+				float: left;
+				margin-top: -125px;
+				color: black;
+				font-weight: bolder;
+				line-height: 1.2;
+				z-index: 200;
+				letter-spacing: 1.2px;
+
+			}
+			.captions p{
+				font-weight: lighter;
+			}
+				.left{
+				float: left;
+				margin-bottom: 50px;
+			}
+	
+
+			
+
+#feet{
+ 	position: relative;
+ 	float: left;
+	clear:both;
+	width: 100vw;
+	height: auto;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: white;
+/*background: -webkit-linear-gradient(left top,  #33CCFF, #59D6FF, #6600CC, #622B95); /* For Safari 5.1 to 6.0 
+    background: -o-linear-gradient(bottom right, #33CCFF, #59D6FF,#33CCFF,#6600CC, #622B95); /* For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(bottom right, #33CCFF, #59D6FF,#33CCFF,#6600CC, #622B95); /* For Firefox 3.6 to 15 
+    background: linear-gradient(to bottom right, , #59D6FF,#33CCFF,#6600CC, #622B95); /* Standard syntax (must be last) 	padding-top: 20px;*/
+}
+	.links{
+		float: left;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		padding-top: 0px;
+		text-align: center;
+	}
+		.links ul{
+			display: inline;
+			width: 100%;
+		}
+			.links li{
+				display: inline;
+				text-align: center;
+				padding-right: 5%;
+				width: 20%;
+			}
+				.links p{
+				color: black;
+				font-weight: bolder;
+			}
+				.copyright h4{
+				color: black;
+				padding-bottom: 10px;
+			}
+
+	.copyright{
+		float: left;
+		clear: both;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		padding-top: 40px;
+		text-align: center;
+	}
 
 
 
 		
 
 
-@media (max-width: 1200px) {
+@media (max-width: 700px) {
+			.works li{
+				display: inline-block;
+				text-align: center;
+				width:40%;
+				margin:4%;
+			}
+			
+			.mememe{
+				width: 100%;
+				float: left;
+				clear: both;
+			}
+			
+			.right{
+				clear: both;
+				float: left;
+				padding-top: 50px;
+				display: inline-block;
+				width:700px;
+				height: auto;
+				float: left;
+			}
+			
+			.me img{
+				width: 100%;
+			}
+			
+			.me{
+				width: 100%;
+				margin-top: 100px;
+				margin-bottom: 50px;
+				height: auto;
+			}
+			
+			.me ul{
+				display: inline-block;
+				position: relative;
+				width: 100%; 
+			}
+			
+			.me li{
+				display: block;
+				width:100%;
+				background-color: red;
+				float: left;
+				clear: both;
+				margin: 5%;
+			}
 }
-@media (max-width: 1000px) {
-  }
 
 
-@media (max-width: 800px) {
-}
-@media (max-width: 400px) {
-}
+@media (max-width: 500px) {
+			.works li{
+				display: block;
+				float: left;
+				clear: both;
+				text-align: center;
+				width:75%;
+				margin:4%;
+				padding-left: 30px;
+			}
+				.mememe{
+				width: 100%;
+				margin-left: 40%;
+				float: left;
+				clear: both;
+			}
+				.right{
+				float: left;
+				width: 100%;
+				clear: both;
+				padding-right: 100px;
+			}
 
-
-
-
-
+			.me li{
+				display: inline-block;
+				text-align: center;
+				width:75%;
+				margin:4%;
+				padding-left: 30px;
+				background-color: red;
+			}
+				.me{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 100px;
+		margin-bottom: 50px;
+		height: auto;
+		background-color: blue;
+	}
+		.me ul{
+			display: inline-block;
+			position: relative;
+			width: 100%; 
+		}
+		}
 
 
 .clearfix:after {
@@ -184,10 +460,13 @@ h3 { font-family: 'Inconsolata';
 	font-size: 0.8em; text-align: left; color:black; }
 
 h4 { font-family: 'Inconsolata';
-	font-size: 0.6em; text-align: left; color:black; }
+	font-size: 0.6em; color:black; }
 
 h5 { font-family: 'Inconsolata';
 	font-size: 0.4em; text-align: left; color:black;  }
+
+	h6 { font-family: 'Inconsolata';
+	font-size: 1em; text-align: left; color:black;  }
 
 li { font-family: 'Inconsolata';
 	font-size: 0.8em; 
@@ -197,16 +476,14 @@ li { font-family: 'Inconsolata';
 	float:left;
 	}
 
-
-
 p{ font-family: 'Inconsolata'; 
 	font-size: 0.8em; 
 	text-align: left; 
 	color:black;
 	display: inline;
     list-style:none;
-	line-height: 2em;}
-
+	line-height: 2em;
+	letter-spacing: .8px;}
 
 	a:link {color:black;
 		text-decoration: none;
@@ -215,113 +492,107 @@ p{ font-family: 'Inconsolata';
 		text-decoration: none;
 	}
 	a:hover {
-
 		text-decoration: none;
 	}
 
-
-
-
-
-	.grid2{
-		width: 100%;
+#allaboutme{
+	position: relative;
+	float: left;
+	clear:both;
+	width: 100vw;
+	height: auto;
+	margin-left: 0;
+	margin-right: 0;
+}
+.aboot{
+	text-align: left;
+}
+	.me{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
 		margin-top: 100px;
-		line-height: 0;
-		display: inline-block; 
+		margin-bottom: 50px;
+		height: auto;
 	}
-	.menail{
-		float: left;
-		clear: both;
-		margin: 10px;
-		width: 40%;
-		padding-bottom: 14%
-	}
-		.mememe{
-			width: 100% !important;
-  			height: auto !important;
+		.me ul{
+			display: inline-block;
+			position: relative;
+			width: 100%; 
 		}
-	.list2{
-		float: left;
-		margin-top: 10px;
-		margin-left: 50px;
-		width: 36%;
-	}
-		.myname{
-			padding-bottom: 25px;
-			padding-top: 5px;
-			font-weight: bolder;
-		}
-		.squiggle{
+			.mememe{
+				width: 120%;
+				float: left;
+				margin-left: 40%;
+			}
+
+			.me li{
+				display: inline-block;
+				text-align: left;
+				width:30%;
+			}
+				.right{
+				float: right;
+				margin-right: 50px;
+			}
+				.me h2{
+				padding-bottom: 10px;
+				color: black;
+				font-weight: bolder;
+				z-index: 200;
+				letter-spacing: 1.2px;
+				font-size: 1.6em;
+			}
+				.me p{
+				padding-bottom: 10px;
+				color: black;
+				z-index: 200;
+				font-size: 1em;
+			}
+
+
+	.squiggle{
 			width:60px;
 			margin-top: 10px;
 			margin-bottom: 20px;
 			margin-left: 75%;
 			padding: 5px;
 		}
-
 	
 
-	
+		.works div{
+				display: inline-block;
+				text-align: left;
+				width:30%;
+				margin-bottom: 50px;
+			}
 
+		#description{
+				margin-top: 20px;
+				color: black;
+				font-weight: bolder;
+				font-size: 1.2em;
+				line-height: 1.2;
+				z-index: 200;
+				letter-spacing: 1.2px;
 
-
-.contentsecond{
-		width:90%;
-		margin-left: 20%;
-		margin-top: -60px;
-	}
-.contentsecond img{
-	width: 900px;
-}
-
-
-.footer{
-		width: 94%;
-		height: auto;
-		clear: both;
-		float: left;
-		margin-top:10%;
-		margin-bottom: 0;
-		margin-left: 30px;
-	}
-	.footerline{
-		width: 100%;
-		height: auto;
-		clear: both;
-		float: left;
-		margin-top: 12px;
-	
-	 	height: 1px;
-	    padding: .5px;
-	    background: linear-gradient(45deg, #33CCFF, #6600CC);
-	  	}
-	.copyright{font-family: 'Inconsolata'; 
-		font-size: 0.6em; 
-		text-align: right; 
-		color:black;
-		display: inline;
-    	list-style:none;
-		line-height: 2em;
-		float: right;
-		}
-
-.linksies{
-	float: left;
-	margin-top: 6%;
-
-	font-family: 'Inconsolata'; 
-	font-size: .8em; 
-	text-align: left; 
-	color:black;
-	display: inline;
-    list-style:none;
-	line-height: 2em;
-}
-
-.linksies p{
-	margin-right: 20px;}
-
-
+			}
+			#descriptionh6{
+				color: black;
+				line-height: 1.5;
+				font-size: 1em;
+				z-index: 200;
+				letter-spacing: 1.2px;
+				font-weight: lighter;
+				line-height: 2;
+				padding-bottom: 10px;
+			}
+		
+		#descriptionp{
+				font-weight: lighter;
+				line-height: 1.2;
+				font-size: .8em;
+			}
 
 
 
